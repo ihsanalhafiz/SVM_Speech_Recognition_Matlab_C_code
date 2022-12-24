@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.coder" plugin-version="R2021a">
-  <configuration build-checksum="2211598343" file="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022\svm_speech.prj" location="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022" name="svm_speech" target="target.unifiedcoder" target-name="MATLAB Coder">
+  <configuration build-checksum="2697620952" file="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022\svm_speech.prj" location="C:\Users\ihsan\Documents\MATLAB\svm_speech_23122022" name="svm_speech" target="target.unifiedcoder" target-name="MATLAB Coder">
     <profile key="profile.mex">
       <param.BuiltInstrumentedMex>false</param.BuiltInstrumentedMex>
       <param.RanInstrumentedMex>false</param.RanInstrumentedMex>
@@ -343,9 +343,9 @@
       <param.GenerateMakefile>true</param.GenerateMakefile>
       <param.BuildToolEnable>false</param.BuildToolEnable>
       <param.BuildToolConfiguration />
-      <param.InlineThreshold>10</param.InlineThreshold>
-      <param.InlineThresholdMax>200</param.InlineThresholdMax>
-      <param.InlineStackLimit>1000000</param.InlineStackLimit>
+      <param.InlineThreshold>100</param.InlineThreshold>
+      <param.InlineThresholdMax>2000</param.InlineThresholdMax>
+      <param.InlineStackLimit>10000000</param.InlineStackLimit>
       <param.InlineBetweenUserFunctions>option.InlineBetweenUserFunctions.Speed</param.InlineBetweenUserFunctions>
       <param.InlineBetweenUserAndMathWorksFunctions>option.InlineBetweenUserAndMathWorksFunctions.Speed</param.InlineBetweenUserAndMathWorksFunctions>
       <param.InlineBetweenMathWorksFunctions>option.InlineBetweenMathWorksFunctions.Speed</param.InlineBetweenMathWorksFunctions>
@@ -530,9 +530,6 @@
         <param.GenerateMakefile />
         <param.BuildToolEnable />
         <param.BuildToolConfiguration />
-        <param.InlineThreshold />
-        <param.InlineThresholdMax />
-        <param.InlineStackLimit />
         <param.InlineBetweenUserFunctions />
         <param.InlineBetweenUserAndMathWorksFunctions />
         <param.InlineBetweenMathWorksFunctions />
@@ -597,7 +594,7 @@
     <param.hdlParamStorage />
     <var.gc.lastOutputRoot>codegen\lib\svm_speech</var.gc.lastOutputRoot>
     <var.gc.lastOutputType>C_CODE</var.gc.lastOutputType>
-    <var.gc.preBuildChecksum>2211598343</var.gc.preBuildChecksum>
+    <var.gc.preBuildChecksum>2697620952</var.gc.preBuildChecksum>
     <var.cfi.lastOutputRoot>codegen\mex\svm_speech</var.cfi.lastOutputRoot>
     <var.cfi.preBuildChecksum>775986453</var.cfi.preBuildChecksum>
     <var.lastCfiTestSnippet>svm_speech_test</var.lastCfiTestSnippet>
